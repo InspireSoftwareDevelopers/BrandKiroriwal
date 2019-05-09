@@ -1,0 +1,49 @@
+
+@keyframes downmouse {
+	0% {top:8px; opacity: 1}
+	25% {top:16px; opacity: 1}
+	50% {top:16px;opacity: 1}
+	100% {top: 8px;opacity: 1}	
+}
+
+@keyframes ajaxWrapper {
+	from { bottom:-100vh; }
+	to {bottom: 0px;}
+}
+@keyframes ajaxWrapperClose {
+	from { bottom:0vw; }
+	to {bottom: -100vh;}
+}
+@keyframes loadinglogo {
+	from {opacity: 1}
+	to {opacity: 0}
+}
+
+.header .sub-menu ul li a,.header #filterpush, .header #filterpush span,
+.header .social ul li a, .header .filter-wrap,.grid-wrapper1,.open .filter-wrap,
+.header .filter-wrap li a,
+ .hero .slide-item .slider-content a, .hero .slide-item .slider-content a:after,
+ .grid-item span.title-category, .grid-item a,.title,.category,.page-title .bread-crumb li a,
+ .page-title .bread-crumb li a:after,.page-nav li a:after,.page-nav li a:hover:after,
+ .blog-entry span.title-category,.blog-entry .description,.blog-entry img,
+ .page-nav .nav-left:after,
+.page-nav .nav-right:after,input:focus,textarea:focus,input:hover,textarea:hover,.contact-item,
+.nav-wrapper .nav-menu .active a span,
+.nav-wrapper .nav-menu li:hover a span,
+.nav-wrapper .nav-menu a,
+.header .push,
+.header .push span:before,
+.header .push span:after,
+.position-absolute,.grid .grid-more,.grid .grid-more:before
+ {transition: 250ms all;} 
+
+
+.move {animation:ajaxWrapper 1s ease; animation-fill-mode: forwards;}
+.closemove {animation:ajaxWrapperClose 1s ease; animation-fill-mode: forwards;}
+
+
+.logoAnimate {animation:loadinglogo 1s infinite; height: 40px; }
+
+
+
+

@@ -1,0 +1,340 @@
+/*------------------------------------------------
+
+  Table of Contents
+
+  01. Primary Color - Background
+  02. Primary Color - Text
+  03. Primary Color - Border
+  04. Secondary Color - Background
+  05. Secondary Color - Text
+  06. White - Background
+  07. White - Text
+  08. Dark - Background
+  09. Gray - Border
+  10. Core Colors
+  11. Mobile Slider
+
+  -
+
+  @style 	  : style.css
+  @media      : responsive.css
+  @animations : app.animate.css, animate.css;
+
+-------------------------------------------------*/
+/*------------------------------------------------
+01. Primary Color - Background
+-------------------------------------------------*/
+.header .push span,
+.header .push span:before,
+.header .push span:after,
+.header-fixed .push span,
+.header-fixed .push span:before,
+.header-fixed .push span:after,
+.header .filter-wrap,
+.hero .slide-item .slider-content a:after,
+.slider-nav .slick-current:before,
+.grid .grid-more:before,.footer-last a,
+.mouse:before,.grid-item span.title-category,
+.blog-entry span.title-category,
+.page-title .bread-crumb li a:hover:after,
+.page-title .bread-crumb li a.bc-active:after,
+.close-menu,
+.close-menu-ajax,
+.close-menu:after,
+.close-menu-ajax:after,
+.blog-meta, 
+.button.red,.nav-wrapper .nav-menu .active a span:after,
+.nav-wrapper .nav-menu li:hover a span:after,.icon-box.radius-icon{
+	background-color: #e64a34;
+}
+
+/*------------------------------------------------
+02. Primary Color - Text
+-------------------------------------------------*/
+.header .social ul li a:hover,
+.hero .slide-item .slider-content h3,
+.slider-nav .slick-current a,
+.footer h2,
+.footer-social ul li a:hover,
+.social-domain,
+.footer-social ul li a.social-hover,
+.header .sub-menu ul li a:hover,
+.hero .slide-item .slider-content a:hover,
+.page-title h1,
+.page-title .bread-crumb li a:hover,
+.page-title .bread-crumb li a:hover.bc-active,
+.about .about-head strong,
+.about h3,.call-out p strong,
+.entry-meta span,
+.blog-entry .entry-meta a:hover,
+.page-nav .nav-left:hover .prev,
+.page-nav .nav-right:hover .next,
+.author-social a:hover,
+input:hover,input:focus,
+textarea:hover,
+.comment-textarea textarea:focus,
+a:hover.reply.black,
+.contact.white-area h2,
+.contact-item:hover .contact-icon,
+span.x,
+.nav-wrapper .social-nav li a:hover,
+.nav-menu li ul li:hover a:hover,
+.grid .grid-more:hover,
+.primary-button,
+.gray-button:hover,.white-area p a {
+	color:#e64a34;
+}
+/*------------------------------------------------
+03. Primary Color - Border
+-------------------------------------------------*/
+.footer-social .regtangle,
+.header #filterpush:hover,
+.header-fixed #filtermobile:hover,
+.open .header #filterpush,
+.open .header-fixed #filtermobile,
+.mouse,
+.page-nav li a:after,
+.page-nav li a:hover:after,
+.about .about-img-wrapper,
+.call-out,
+.skills .skill-box .skill-value,
+.page-nav .nav-left:after,
+.page-nav .nav-right:after,
+.page-nav .nav-left:hover:after,
+.page-nav .nav-right:hover:after,
+.author-box
+,input:hover,
+input:focus,
+textarea:hover,
+.comment-textarea textarea:focus,
+.contact-item:hover,
+.contact input:hover,
+.contact input:focus,
+.contact textarea:hover,
+.contact textarea:focus,
+.slide-arrow-left,
+.slide-arrow-right,
+.primary-button,
+.gray-button:hover {
+	border-color:#e64a34;
+}
+
+/*------------------------------------------------
+04. Secondary Color - Background
+-------------------------------------------------*/
+.header #filterpush span,
+.header #filterpush span:before,
+.header #filterpush span:after,
+.header-fixed #filtermobile span,
+.header-fixed #filtermobile span:before,
+.header-fixed #filtermobile span:after,
+.page-title .bread-crumb li a:after  {
+	background-color: #6a6a6a
+}
+
+/*------------------------------------------------
+05. Secondary Color - Text
+-------------------------------------------------*/
+.header .sub-menu ul li a,
+.header .social ul li a,
+.grid .grid-more,
+.footer h2 span,
+.footer-social ul li a,
+.footer .footer-last p,
+.social-account,
+.slider-nav a,
+.page-title .bread-crumb li a,
+.page-title .bread-crumb li a.bc-active,
+.skill-description,
+.blog-entry .entry-meta a,
+.white-area p,
+.page-nav .nav-left span,
+.page-nav .nav-right span,
+.white-area,
+.black,
+.black a,
+.not-found p,
+.nav-wrapper .nav-menu a,
+.nav-wrapper .social-nav li a,
+.nav-menu li ul li a,
+.nav-wrapper .nav-menu li:hover ul li a,
+.nav-wrapper .search-wrapper p,
+.gray-button {
+	color: #6a6a6a;
+}
+
+/*------------------------------------------------
+06. White - Background
+-------------------------------------------------*/
+.open .header #filterpush span,
+.open .header #filterpush span:before,
+.open .header #filterpush span:after ,
+.open .header-fixed #filtermobile span,
+.open .header-fixed #filtermobile span:before,
+.open .header-fixed #filtermobile span:after ,
+.header #filterpush:hover span,
+.header #filterpush:hover span:before,
+.header #filterpush:hover span:after,
+.header-fixed #filtermobile:hover span,
+.header-fixed #filtermobile:hover span:before,
+.header-fixed #filtermobile:hover span:after,
+.page-content,.comment-area .comment {
+	background-color: #fff
+}
+
+/*------------------------------------------------
+07. White - Text
+-------------------------------------------------*/
+body,
+a,
+.grid-item span.title-category,
+.button,.page-nav li a,
+.page-nav .nav-left,
+.page-nav .nav-right,
+.nav-wrapper .nav-menu .active a,
+.nav-wrapper .nav-menu li:hover a,
+.nav-wrapper .search-wrapper input,
+.blog-entry span.title-category,
+.header .filter-menu li a,
+.skill-box span,
+.page-nav .nav-left .prev,
+.page-nav .nav-right .next,
+.page-nav .nav-left:hover span,
+.page-nav .nav-right:hover span,
+.blog-meta-middle a:hover  {
+	color: #fff;
+}
+
+/*------------------------------------------------
+08. Dark - Backgrounds
+-------------------------------------------------*/
+body ,
+.black-space {
+	background-color: #272729;
+}
+.header {background-color: #2E2E30;}
+.hero {
+	background-color: #242326; 
+	background-image: linear-gradient(90deg, #28282a, #1b1b1d);
+	background-image: -webkit-linear-gradient(90deg, #28282a, #1b1b1d);
+	background-image: -moz-linear-gradient(90deg, #28282a, #1b1b1d);
+	background-image: -o-linear-gradient(90deg, #28282a, #1b1b1d);
+	background-image: -ms-linear-gradient(90deg, #28282a, #1b1b1d);
+}
+.footer-img:before {
+    background: linear-gradient(to top, rgba(39,39,41,1) 10%,rgba(39,39,41,0) 100%);
+}
+/*------------------------------------------------
+09. Gray Border
+-------------------------------------------------*/
+.comment-textarea input,
+.comment-textarea textarea,
+.contact input,
+.contact textarea,
+.contact-item {
+	border:1px solid #eee;
+}
+
+/*------------------------------------------------
+10 - Core Colors
+-------------------------------------------------*/
+.hero .slide-item .slider-content a {
+  color: #696969;
+}
+
+.white-area {
+  background-color: #fcfcfc;
+}
+
+.seperator {
+  background-color: #ececec;
+}
+
+.blog-entry .description {
+  color: #888;
+}
+
+.blog-meta time,.blog-category a {
+  color: #a3200e;
+}
+
+.nav-wrapper .nav-menu .active a span,
+.nav-wrapper .nav-menu li:hover a span {
+  color: #e64a34;
+}
+
+.overlay-wrapper {
+  background-color: #242326;
+}
+
+.filter-mobile-wrapper {
+  background: #212125;
+}
+
+.nav-wrapper .search-wrapper input {
+
+  border-color:rgba(255,255,255,.2);
+}
+
+.ajax-wrapper {
+  background: #242326;
+}
+
+.skills .skill-box {
+  border-color: #cacaca;
+}
+
+.page-nav li a,.page-nav .nav-left,
+.page-nav .nav-right,.primary-button:hover,.gray-button {
+  border-color: #6a6a6a;
+}
+
+.open .header:after {
+  background: #2E2E30;
+}
+blockquote {
+    background: #2c2c2d12;
+}
+.about,
+.white-area h1,
+.white-area h2,
+.white-area h3,
+.white-area h4,
+.white-area h5,
+.white-area h6,.author-name,.contact-item-title,.icon-title,.icon-box {
+	color: #212124;
+}
+::-moz-selection { background: #8c8c8e; }
+::selection { background: #8c8c8e; }
+/*------------------------------------------------
+11. Mobile Slider
+-------------------------------------------------*/
+
+@media (max-width: 480px) {
+
+	.slider-nav .slick-slide {
+	    background: #6a6a6a;
+	}
+	.slider-nav .slick-slide.slick-current {
+		background-color: #e64a34;
+	}
+	.slider-nav .slick-slide.slick-current:before {
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 768px) and (min-width: 310px) {
+
+	.slider-nav .slick-slide {
+	    background: #6a6a6a;
+	}
+		.slider-nav .slick-slide.slick-current {
+		background-color: #e64a34;
+	}
+	.slider-nav .slick-slide.slick-current:before {
+		display: none;
+	}
+}
+
+
